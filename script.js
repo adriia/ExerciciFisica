@@ -1,6 +1,6 @@
  const gravetat = 9.8;
 function f(){
-    var dniUsuari = document.getElementById("itemUser").value;
+    var dniUsuari = document.getElementById("grup").value;
       dniUsuari.toUpperCase;
   var lletraDni = dniUsuari.substring(8,9);
   var numerosDni = dniUsuari.substring(0,8);
