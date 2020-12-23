@@ -5,8 +5,18 @@
   <title>Exercici física</title>
 </head>
 <body>
-Introdueix la massa
-<input type="text" id="itemUser" size="10" maxlength="9" required="riquired"/><br/>
+  <ul>
+    <li>Introdueix el grup: <input type="text" id="grup"/> </li>
+    <li>Introdueix el subgrup: 
+      <input type="radio" id="persona1" value="pers1"/><label for="pers1">Persona 1</label><br> 
+      <input type="radio" id="persona2" value="pers2"/><label for="pers2">Persona 2</label><br>
+    </li>
+    <li>Introdueix la massa: <input type="text" id="massa"/> </li>
+    <li>Introdueix el salt 1: <input type="text" id="salt1"/> </li>
+    <li>Introdueix el salt 2: <input type="text" id="salt2"/> </li>
+    <li>Introduexi el salt 3: <input type="text" id="salt3"/> </li>
+    <li>Introdueix la "molla": <input type="text" id="molla"/></li>
+  </ul>
 <input type="button" onclick="f()" value="Validar"/>
 <!-- partial -->
   <script  src="./script.js"></script>
